@@ -14,6 +14,11 @@
   <%= investment.total_votes %>
 </td>
 
+<td class="text-center" data-field="ballot_lines_count">
+  <%= investment.ballot_lines_count %>
+</td>
+
+
 <td class="small" data-field="admin">
   <% if investment.administrator.present? %>
     <span title="<%= t("admin.budget_investments.index.assigned_admin") %>">
